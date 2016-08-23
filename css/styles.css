@@ -1,0 +1,27 @@
+/*img {
+  width: 300px;
+  height: auto;
+}*/
+
+body {
+  background-image: url("../img/background.jpg");
+
+}
+
+h1 {
+  /*font-family: 'Ravi Prakash', cursive;
+  font-family: 'Monoton', cursive;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Press Start 2P', cursive;*/
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 78pt;
+  color: #ffff80;
+  text-align: center;
+}
+
+h3 {
+  color: #ffff80;
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+}
