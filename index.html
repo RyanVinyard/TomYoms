@@ -24,7 +24,35 @@
         </div>
         <h1>Tom Yom's <br> Theater <br> &amp; <br>Carryout</h1>
         <h3>Featuring the finest in feature films and Chinese American cuisine.</h3>
+        <br>
+        <form id="movie-info">
+          <div class="movie-form">
 
-      </div>
+            <div class="form-group">
+              <label for="movie-select">Pick your movie:</label>
+              <select type="text" class="form-control" id="movie-select">
+              <option>Fight Club</option>
+              <option>Titanic</option>
+              <option>Star Wars</option>
+            </select>
+            </div>
+
+            <div class="form-group">
+              <label for="time-select">Pick your time:</label>
+              <select type="text" class="form-control" id="time-select">
+                <option>10:00</option>
+                <option>13:00</option>
+                <option>18:00</option>
+                <option>22:00</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="age-select">Please enter your age:</label>
+              <input type="number" class="form-control age-select" required id="age-select">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-info">Add</button>
+      </form>
+    </div>
   </body>
 </html>
